@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '🏗️ Starting Husky controls for pre-commit hook...';
+
+# Check tsconfig standarts
+yarn check-types || {
+    echo '💥 TypeScript check failed';
+    exit 1;
+}
+
+# Check eslint standarts
+yarn check-lint || {
+    echo '💥 ESLint check failed';
+    exit 1;
+}
+
+# If all is ok, commit
+yarn build && {
+    echo '💪 Commit is ready';
+    exit 0;
+}
