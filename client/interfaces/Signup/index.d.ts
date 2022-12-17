@@ -1,7 +1,5 @@
-export interface User {
-  _id: string;
+export interface ISignup {
   email: string;
-  password: string;
   name: string;
   surname: string;
   phone: string;

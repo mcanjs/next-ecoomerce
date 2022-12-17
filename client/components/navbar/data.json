@@ -1,0 +1,268 @@
+{
+  "menus": [
+    {
+      "title": "SHOP",
+      "url": "http://google.com",
+      "subNav": [
+        {
+          "title": "Apparels",
+          "subItems": [
+            {
+              "title": "PANTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "JUMPSUITS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SHORTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "TOPS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Accessories",
+          "subItems": [
+            {
+              "title": "NECKLACES",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SCARFS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Others",
+          "subItems": [
+            {
+              "title": "HOUSEWARE",
+              "url": "http://google.com"
+            },
+            {
+              "title": "GIFT CARDS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Shop by collection",
+          "subItems": [
+            {
+              "title": "SALE/LAST CALL",
+              "url": "http://google.com"
+            },
+            {
+              "title": "ESSENTIALS",
+              "url": "http://google.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "FABRIC",
+      "url": "http://google.com",
+      "subNav": [
+        {
+          "title": "Apparels",
+          "subItems": [
+            {
+              "title": "PANTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "JUMPSUITS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SHORTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "TOPS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Accessories",
+          "subItems": [
+            {
+              "title": "NECKLACES",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SCARFS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Others",
+          "subItems": [
+            {
+              "title": "HOUSEWARE",
+              "url": "http://google.com"
+            },
+            {
+              "title": "GIFT CARDS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Shop by collection",
+          "subItems": [
+            {
+              "title": "SALE/LAST CALL",
+              "url": "http://google.com"
+            },
+            {
+              "title": "ESSENTIALS",
+              "url": "http://google.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "JOURNAL",
+      "url": "http://google.com",
+      "subNav": [
+        {
+          "title": "Apparels",
+          "subItems": [
+            {
+              "title": "PANTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "JUMPSUITS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SHORTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "TOPS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Accessories",
+          "subItems": [
+            {
+              "title": "NECKLACES",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SCARFS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Others",
+          "subItems": [
+            {
+              "title": "HOUSEWARE",
+              "url": "http://google.com"
+            },
+            {
+              "title": "GIFT CARDS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Shop by collection",
+          "subItems": [
+            {
+              "title": "SALE/LAST CALL",
+              "url": "http://google.com"
+            },
+            {
+              "title": "ESSENTIALS",
+              "url": "http://google.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ABOUT",
+      "url": "http://google.com",
+      "subNav": [
+        {
+          "title": "Apparels",
+          "subItems": [
+            {
+              "title": "PANTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "JUMPSUITS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SHORTS",
+              "url": "http://google.com"
+            },
+            {
+              "title": "TOPS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Accessories",
+          "subItems": [
+            {
+              "title": "NECKLACES",
+              "url": "http://google.com"
+            },
+            {
+              "title": "SCARFS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Others",
+          "subItems": [
+            {
+              "title": "HOUSEWARE",
+              "url": "http://google.com"
+            },
+            {
+              "title": "GIFT CARDS",
+              "url": "http://google.com"
+            }
+          ]
+        },
+        {
+          "title": "Shop by collection",
+          "subItems": [
+            {
+              "title": "SALE/LAST CALL",
+              "url": "http://google.com"
+            },
+            {
+              "title": "ESSENTIALS",
+              "url": "http://google.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

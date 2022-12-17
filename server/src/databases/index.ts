@@ -1,9 +1,12 @@
-import { DB_HOST, DB_PORT, DB_DATABASE } from '@config';
+import { DB_PREFIX, DB_USER, DB_HOST, DB_PASSWORD, DB_QUERY_STRING } from '@config';
+import { ConnectOptions } from 'mongoose';
 
-export const dbConnection = {
-  url: `mongodb://${DB_HOST}:${DB_PORT}/${DB_DATABASE}`,
-  options: {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  },
+interface IDBConnection {
+  url: string;
+  options: ConnectOptions;
+}
+
+export const dbConnection: IDBConnection = {
+  url: `${DB_PREFIX}://${DB_USER}:${encodeURIComponent(DB_PASSWORD)}@${DB_HOST}/?${DB_QUERY_STRING}`,
+  options: {},
 };

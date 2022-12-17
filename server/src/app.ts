@@ -45,11 +45,16 @@ class App {
   }
 
   private connectToDatabase() {
+    set('strictQuery', true);
     if (this.env !== 'production') {
       set('debug', true);
     }
 
-    connect(dbConnection.url, dbConnection.options);
+    connect(dbConnection.url, dbConnection.options, (error: any) => {
+      if (error) {
+        console.error(error);
+      }
+    });
   }
 
   private initializeMiddlewares() {
