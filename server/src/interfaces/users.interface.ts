@@ -6,4 +6,6 @@ export interface User {
   surname: string;
   phone: string;
   birthDate: string;
+  createdAt: Date;
+  updatedAt: Date;
 }

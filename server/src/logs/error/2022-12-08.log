@@ -1,0 +1,178 @@
+2022-12-08 01:49:28 error: uncaughtException: URI contained empty userinfo section
+MongoParseError: URI contained empty userinfo section
+    at new ConnectionString (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb-connection-string-url/src/index.ts:163:17)
+    at parseOptions (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/connection_string.ts:257:15)
+    at new MongoClient (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/mongo_client.ts:347:34)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:802:16
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:799:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:417:10
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+2022-12-08 01:50:05 error: uncaughtException: URI contained empty userinfo section
+MongoParseError: URI contained empty userinfo section
+    at new ConnectionString (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb-connection-string-url/src/index.ts:163:17)
+    at parseOptions (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/connection_string.ts:257:15)
+    at new MongoClient (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/mongo_client.ts:347:34)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:802:16
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:799:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:417:10
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+2022-12-08 01:51:37 error: uncaughtException: Protocol and host list are required in "mongodb+srv://ecommerce:AahUoZn0u7ATsDFM@@cluster0.1zk2fjh.mongodb.net/?retryWrites=true&w=majority"
+MongoParseError: Protocol and host list are required in "mongodb+srv://ecommerce:AahUoZn0u7ATsDFM@@cluster0.1zk2fjh.mongodb.net/?retryWrites=true&w=majority"
+    at new ConnectionString (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb-connection-string-url/src/index.ts:145:15)
+    at parseOptions (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/connection_string.ts:257:15)
+    at new MongoClient (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/mongo_client.ts:347:34)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:802:16
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:799:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:417:10
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+2022-12-08 01:51:46 error: uncaughtException: Protocol and host list are required in "mongodb+srv://ecommerce:AahUoZn0u7ATsDFM@@cluster0.1zk2fjh.mongodb.net/??retryWrites=true&w=majority"
+MongoParseError: Protocol and host list are required in "mongodb+srv://ecommerce:AahUoZn0u7ATsDFM@@cluster0.1zk2fjh.mongodb.net/??retryWrites=true&w=majority"
+    at new ConnectionString (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb-connection-string-url/src/index.ts:145:15)
+    at parseOptions (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/connection_string.ts:257:15)
+    at new MongoClient (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/mongo_client.ts:347:34)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:802:16
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:799:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:417:10
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+2022-12-08 01:52:18 error: uncaughtException: option ?retrywrites is not supported
+MongoParseError: option ?retrywrites is not supported
+    at parseOptions (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/connection_string.ts:371:11)
+    at new MongoClient (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/mongo_client.ts:347:34)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:802:16
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:799:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:417:10
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:1270:10)
+2022-12-08 01:52:50 error: uncaughtException: option ?retrywrites is not supported
+MongoParseError: option ?retrywrites is not supported
+    at parseOptions (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/connection_string.ts:371:11)
+    at new MongoClient (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/mongo_client.ts:347:34)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:802:16
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:799:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:417:10
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:1270:10)
+2022-12-08 01:55:03 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:56:03 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:56:13 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:56:23 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:56:51 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:57:04 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:57:12 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:53:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:58:45 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:54:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:58:54 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:54:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:59:19 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:54:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:59:28 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:54:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 01:59:53 error: uncaughtException: Cannot read properties of null (reading 'message')
+TypeError: Cannot read properties of null (reading 'message')
+    at /Users/mcan/me/next-ecoomerce/server/src/app.ts:54:25
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/index.js:421:14
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/connection.js:842:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-08 02:04:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/index.controller.ts[0m:[93m7[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m7[0m     } catch (error) {
+[7m [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/index.controller.ts[0m:[93m7[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m7[0m     } catch (error) {
+[7m [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

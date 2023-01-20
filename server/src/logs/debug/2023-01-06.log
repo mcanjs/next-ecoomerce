@@ -1,0 +1,26 @@
+2023-01-06 05:16:07 info: =================================
+2023-01-06 05:16:07 info: ======= ENV: development =======
+2023-01-06 05:16:07 info: 🚀 App listening on the port 8000
+2023-01-06 05:16:07 info: =================================
+2023-01-06 05:16:25 info: [0mPOST /login [32m200[0m 166.588 ms - 255[0m
+2023-01-06 05:16:27 info: [0mGET /api/products [32m200[0m 82.652 ms - 562[0m
+2023-01-06 05:29:28 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2023-01-06 05:29:28 info: [0mPOST /login [33m409[0m 130.565 ms - 38[0m
+2023-01-06 05:29:32 info: [0mPOST /login [32m200[0m 130.714 ms - 255[0m
+2023-01-06 05:34:44 info: [0mGET /api/products [32m200[0m 64.457 ms - 562[0m
+2023-01-06 05:35:05 info: [0mGET /api/products [32m200[0m 91.197 ms - 562[0m
+2023-01-06 05:35:05 info: [0mGET /api/products [32m200[0m 85.602 ms - 562[0m
+2023-01-06 05:39:58 info: [0mGET /api/products [32m200[0m 69.682 ms - 562[0m
+2023-01-06 05:40:29 info: [0mGET /api/products [32m200[0m 69.423 ms - 562[0m
+2023-01-06 09:52:37 info: =================================
+2023-01-06 09:52:37 info: ======= ENV: development =======
+2023-01-06 09:52:37 info: 🚀 App listening on the port 8000
+2023-01-06 09:52:37 info: =================================
+2023-01-06 09:52:45 info: [0mGET /api/products [32m200[0m 90.875 ms - 562[0m
+2023-01-06 09:53:00 info: [0mGET /api/products [32m200[0m 55.875 ms - 562[0m
+2023-01-06 09:54:17 info: [0mGET /api/products [32m200[0m 62.717 ms - 562[0m
+2023-01-06 09:55:33 info: [0mGET /api/products [32m200[0m 56.441 ms - 562[0m
+2023-01-06 09:55:53 info: [0mGET /api/products [32m200[0m 61.034 ms - 562[0m
+2023-01-06 09:55:57 info: [0mGET /api/products [32m200[0m 52.697 ms - 562[0m
+2023-01-06 09:57:12 info: [0mGET /api/products [32m200[0m 56.706 ms - 562[0m
+2023-01-06 09:58:03 info: [0mGET /api/products [32m200[0m 56.792 ms - 562[0m

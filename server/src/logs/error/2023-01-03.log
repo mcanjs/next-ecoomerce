@@ -1,0 +1,15 @@
+2023-01-03 11:05:37 error: [GET] /products >> StatusCode:: 404, Message:: Authentication token missing
+2023-01-03 11:08:05 error: uncaughtException: Cannot create property 'next' on string '/api'
+TypeError: Cannot create property 'next' on string '/api'
+    at Function.handle (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:161:12)
+    at IndexRoute.router (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:47:12)
+    at IndexRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/index.route.ts:17:10)
+    at new IndexRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/index.route.ts:12:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:10:22)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-03 11:11:20 error: [GET] /api/users >> StatusCode:: 404, Message:: Authentication token missing
+2023-01-03 11:12:07 error: [GET] /api/product >> StatusCode:: 404, Message:: Authentication token missing

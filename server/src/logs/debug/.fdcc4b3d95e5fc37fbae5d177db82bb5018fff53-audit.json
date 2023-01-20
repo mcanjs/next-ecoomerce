@@ -1,0 +1,125 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/.fdcc4b3d95e5fc37fbae5d177db82bb5018fff53-audit.json",
+    "files": [
+        {
+            "date": 1670452607727,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-08.log",
+            "hash": "0d3d5029768254012fd09d4d45016bcf7d4aeaccd3ed08cf7d9291bff3338acd"
+        },
+        {
+            "date": 1670937183929,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-13.log",
+            "hash": "fcb0dcb5454c61cd8d86449b5093fda602724f900c529c2c678677dfb65fe1de"
+        },
+        {
+            "date": 1671031473476,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-14.log",
+            "hash": "267d196a43449b8d90dcf0f6259043fafdd9980d0cc967a1a6686333f2417cac"
+        },
+        {
+            "date": 1671135851171,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-15.log",
+            "hash": "317a4bb6218bf7e194405cc4951bc999c2cb859d9866534b5b3c32c6f5acc405"
+        },
+        {
+            "date": 1671190238934,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-16.log",
+            "hash": "e45a37528fdcc4aeb1ef17469ad1bd5dc6b5bf28a588d010e196aed3bd644017"
+        },
+        {
+            "date": 1671301773707,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-17.log",
+            "hash": "7e66a5f6e91712dfd455ecc14ed733999fa69f26a0050f6e23e589bb2ee17829"
+        },
+        {
+            "date": 1671373289763,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-18.log",
+            "hash": "500861e3315f06aceb3d5c50a2baf38401d3d65e7f66045f100a0ff11b86faeb"
+        },
+        {
+            "date": 1671432643199,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2022-12-19.log",
+            "hash": "28ea5ba420066ca983064807f7d7c281ae9b232fe64d3123bff07c23c45c4ecf"
+        },
+        {
+            "date": 1672554438233,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-01.log",
+            "hash": "4a486a8b32313c7aebf851984e567cd6128b8fa4546c9c361b563696bb789972"
+        },
+        {
+            "date": 1672634528579,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-02.log",
+            "hash": "f623810539310266b3fd57f60e9f8ca8dca23670307dea07d06ecf4f3f248939"
+        },
+        {
+            "date": 1672729393963,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-03.log",
+            "hash": "079aaf16acc32a44fdba4623dbf6ffdf7e6a60af5a7e4fd4b558b42dc80262df"
+        },
+        {
+            "date": 1672872074160,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-05.log",
+            "hash": "204062b364a858024c142acae568a3b1978b65ee261ddc82e28996d4e6f4a485"
+        },
+        {
+            "date": 1672971367122,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-06.log",
+            "hash": "35471993e5a9b31d238275895a3c9b1b13b46f9e82faef0d17731d6a1f5fe1e5"
+        },
+        {
+            "date": 1673165113889,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-08.log",
+            "hash": "daf108d7abf9a40e824d3d31b03d068a1b424818311b988881bbac452902f1d0"
+        },
+        {
+            "date": 1673214161866,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-09.log",
+            "hash": "162f20588aa4e48ed67ccfd32cf06a4f31f7289ac20c5e0c40a3f1d37a088f09"
+        },
+        {
+            "date": 1673299797022,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-10.log",
+            "hash": "be52081ee031861afb6cc37479d6dcce46d9830ebeb9e3725c33589762ed58fc"
+        },
+        {
+            "date": 1673402383450,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-11.log",
+            "hash": "86d03680340e8caf7764f2d4d87e61dce321561b3e3c3c94bdef26a1ae463157"
+        },
+        {
+            "date": 1673599862480,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-13.log",
+            "hash": "701daea2e43f8766892aac5879885ccaf967357fbff5162cd7811a3758dc50a2"
+        },
+        {
+            "date": 1673678708779,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-14.log",
+            "hash": "9e6379099a4aef811e1a0d4d92ea460d19fd80b46b288f0d272793172c4b1968"
+        },
+        {
+            "date": 1673848874503,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-16.log",
+            "hash": "4e38d4058d902f5fd1bc6563f837cd43295784a9183da3cad97a7a9238571332"
+        },
+        {
+            "date": 1673933971638,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-17.log",
+            "hash": "72a783ae1a4b46fa95096efc93d39f04e27e8250d02489d50b0de59f0b476c9c"
+        },
+        {
+            "date": 1674030434538,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-18.log",
+            "hash": "bdb8be99b916c33cfadb143ca2b2c39f6bd19cea05f0ce7d24e3526bbc630fe8"
+        },
+        {
+            "date": 1674108467902,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/debug/2023-01-19.log",
+            "hash": "747176c716b475185f9df5f54ea60222ce4a78a23004019d183739009553d0d6"
+        }
+    ],
+    "hashType": "sha256"
+}

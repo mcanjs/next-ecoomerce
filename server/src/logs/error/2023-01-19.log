@@ -1,0 +1,372 @@
+2023-01-19 09:13:34 error: [POST] /secure/api/attribute/ >> StatusCode:: 400, Message:: attributeData is empty
+2023-01-19 09:13:43 error: [POST] /secure/api/attribute/ >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 9
+2023-01-19 09:13:47 error: [POST] /secure/api/attribute/ >> StatusCode:: 400, Message:: attributeData is empty
+2023-01-19 09:13:57 error: [POST] /secure/api/attribute/ >> StatusCode:: 500, Message:: Attribute validation failed: required: Path `required` is required., title: Path `title` is required., type: Path `type` is required.
+2023-01-19 09:18:48 error: [GET] /api/products/macbook-pro >> StatusCode:: 500, Message:: Schema hasn't been registered for model "Attributes".
+Use mongoose.model(name, schema)
+2023-01-19 09:18:48 error: [GET] /api/products/macbook-pro >> StatusCode:: 500, Message:: Schema hasn't been registered for model "Attributes".
+Use mongoose.model(name, schema)
+2023-01-19 09:21:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m43[0m:[93m14[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m43[0m     } catch () {
+[7m  [0m [91m             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m43[0m:[93m14[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m43[0m     } catch () {
+[7m  [0m [91m             ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 09:22:08 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/controllers/attribute.controller.ts:39
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 09:22:10 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/attribute.controller.ts:39
+                const update;
+                      ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 09:22:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m43[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m43[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m43[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m43[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 09:22:30 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/controllers/attribute.controller.ts:40
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 09:22:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m45[0m:[93m5[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m45[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m45[0m:[93m5[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m45[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 09:22:38 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/attribute.controller.ts:40
+                const categoryData;
+                      ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 09:22:42 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/attribute.controller.ts:40
+                const categoryData;
+                      ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 09:22:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m45[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m45[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/attribute.controller.ts[0m:[93m45[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m45[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 09:22:58 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/controllers/attribute.controller.ts:41
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 10:56:45 error: [POST] /secure/api/attribute/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-19 11:01:48 error: [POST] /secure/api/attribute/ >> StatusCode:: 500, Message:: Attribute validation failed: title: Path `title` is required.
+2023-01-19 11:26:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/attribute.service.ts[0m:[93m26[0m:[93m53[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m     console.log('Attribute DATA >>>', attributeData.);
+[7m  [0m [91m                                                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/attribute.service.ts[0m:[93m26[0m:[93m53[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m26[0m     console.log('Attribute DATA >>>', attributeData.);
+[7m  [0m [91m                                                    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 11:28:48 error: [POST] /secure/api/attribute/ >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 81
+2023-01-19 11:28:52 error: [POST] /secure/api/attribute/ >> StatusCode:: 500, Message:: Attribute validation failed: required: Path `required` is required.
+2023-01-19 11:31:44 error: [POST] /secure/api/attribute/ >> StatusCode:: 400, Message:: Unexpected token / in JSON at position 56
+2023-01-19 11:50:11 error: [GET] /api/category >> StatusCode:: 500, Message:: connection <monitor> to 3.121.35.97:27017 timed out
+2023-01-19 12:06:20 error: uncaughtException: User is not defined
+ReferenceError: User is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/products.model.ts:94:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:9:1)
+2023-01-19 12:06:23 error: uncaughtException: Prod is not defined
+ReferenceError: Prod is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/products.model.ts:94:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:9:1)
+2023-01-19 12:06:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m94[0m:[93m15[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m94[0m productSchema.
+[7m  [0m [91m              [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m94[0m:[93m15[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m94[0m productSchema.
+[7m  [0m [91m              [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 12:06:30 error: uncaughtException: First param to `schema.plugin()` must be a function, got "undefined"
+Error: First param to `schema.plugin()` must be a function, got "undefined"
+    at Schema.plugin (/Users/mcan/me/next-ecoomerce/server/node_modules/mongoose/lib/schema.js:1798:11)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/products.model.ts:94:15)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-19 12:10:37 error: uncaughtException: AttributeRoute is not defined
+ReferenceError: AttributeRoute is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:23:7)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:649:14)
+    at bootstrap (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:95:10)
+2023-01-19 12:20:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m export const escapeRegex(text) {
+[7m  [0m [91m                        ~[0m
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m32[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m export const escapeRegex(text) {
+[7m  [0m [91m                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m export const escapeRegex(text) {
+[7m  [0m [91m                        ~[0m
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m32[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m export const escapeRegex(text) {
+[7m  [0m [91m                               ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 12:20:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m export const escapeRegex(text): string {
+[7m  [0m [91m                        ~[0m
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m export const escapeRegex(text): string {
+[7m  [0m [91m                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m export const escapeRegex(text): string {
+[7m  [0m [91m                        ~[0m
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m export const escapeRegex(text): string {
+[7m  [0m [91m                                       ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-19 12:20:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m export const escapeRegex = (text): string {
+[7m  [0m [91m                                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m export const escapeRegex = (text): string {
+[7m  [0m [91m                                          ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)

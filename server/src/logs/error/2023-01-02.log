@@ -1,0 +1,861 @@
+2023-01-02 07:43:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:43:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:44:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:44:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:44:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:44:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:44:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:44:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:45:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m     }
+[7m  [0m [91m    ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m23[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:46:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:47:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:47:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m33[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m       res.json(200).json({data: })
+[7m  [0m [91m                                ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m33[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m       res.json(200).json({data: })
+[7m  [0m [91m                                ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:47:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m33[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m       res.json(200).json({data: })
+[7m  [0m [91m                                ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m23[0m:[93m33[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m       res.json(200).json({data: })
+[7m  [0m [91m                                ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:47:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:47:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:47:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m25[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m25[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 07:48:56 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:10:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-02 07:49:22 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 07:50:24 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 07:51:40 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-02 07:52:41 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 07:58:07 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:02:03 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:02:07 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:04:37 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:06:27 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:07:04 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:07:35 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 08:08:43 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 09:26:20 error: [GET] /products >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 09:27:32 error: [GET] /products/get >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 09:27:49 error: [GET] /products/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-01-02 09:28:39 error: [POST] /products/ >> StatusCode:: 400, Message:: name must be a string, description must be a string, stock must be a number conforming to the specified constraints, category must be a string, brand must be a string
+2023-01-02 09:29:21 error: uncaughtException: Route.get() requires a callback function but got a [object Promise]
+Error: Route.get() requires a callback function but got a [object Promise]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:14:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:10:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-02 09:29:21 error: uncaughtException: next is not a function
+TypeError: next is not a function
+    at authMiddleware (/Users/mcan/me/next-ecoomerce/server/src/middlewares/auth.middleware.ts:28:5)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:51)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:14:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:10:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-02 09:32:16 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/products.route.ts[0m:[93m17[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m     this.router.get(`${this.path}`, req this.productsController.getProducts);
+[7m  [0m [91m                                        ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/products.route.ts[0m:[93m17[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m17[0m     this.router.get(`${this.path}`, req this.productsController.getProducts);
+[7m  [0m [91m                                        ~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-02 09:33:44 error: [POST] /products/ >> StatusCode:: 400, Message:: name must be a string, description must be a string, stock must be a number conforming to the specified constraints, category must be a string, brand must be a string
+2023-01-02 09:33:48 error: [GET] /products/ >> StatusCode:: 404, Message:: Authentication token missing
+2023-01-02 09:35:59 error: [POST] /products/ >> StatusCode:: 400, Message:: property email should not exist, property password should not exist, name must be a string, description must be a string, stock must be a number conforming to the specified constraints, category must be a string, brand must be a string
+2023-01-02 09:36:06 error: [GET] /products/ >> StatusCode:: 404, Message:: Authentication token missing
+2023-01-02 10:42:40 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email

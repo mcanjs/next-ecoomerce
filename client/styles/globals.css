@@ -3,73 +3,44 @@
 @tailwind utilities;
 
 html {
-  min-height: 100%;
-  height: 100%;
-}
-
-body {
-  height: calc(100% - 120px);
-  color: #33333a;
-}
-
-#__next {
-  height: 100%;
-}
-
-button:hover,
-a:hover {
-  @apply bg-transparent;
-}
-
-.hover-effect {
-  @apply hover:text-orange-500 transition-all;
-}
-
-.product-item .product-item-quick-view {
-  @apply w-full h-full absolute flex justify-center items-center invisible bg-opacity-0 transition-all bg-gray-400;
-}
-
-.product-item:hover .product-item-quick-view {
-  @apply visible bg-opacity-40;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  @apply text-orange-500;
-}
-
-.hamburger {
-  overflow: hidden;
-}
-
-.hamburger span {
-  width: 20px;
-  height: 1.5px;
-  display: block;
-  margin-top: 5px;
-  background-color: black;
-  transition: all 0.3s ease-in;
-}
-
-.hamburger:hover span:first-of-type {
+  min-height: 100vh;
   position: relative;
-  top: 6px;
-  transform: rotate(-45deg);
+  @apply pb-14;
 }
 
-.hamburger:hover span:nth-of-type(2) {
-  position: relative;
-  left: 40px;
+p,
+span,
+a,
+input,
+button,
+div {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 14px;
 }
 
-.hamburger:hover span:last-of-type {
-  position: relative;
-  top: -6px;
-  transform: rotate(45deg);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-roboto), sans-serif;
 }
 
-@screen lg {
-  body {
-    height: calc(100% - 80px);
+.thumbnail .keen-slider__slide {
+  @apply border border-transparent cursor-pointer;
+}
+.thumbnail .keen-slider__slide.active {
+  @apply border border-primary;
+}
+
+@media only screen and (max-width: theme('screens.sm')) {
+  .container {
+    @apply px-4;
   }
+}
+
+.attribute input[type='radio']:checked + label,
+.attribute input[type='checkbox']:checked + label {
+  @apply bg-primary text-white transition-all;
 }

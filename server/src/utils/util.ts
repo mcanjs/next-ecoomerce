@@ -17,3 +17,19 @@ export const isEmpty = (value: string | number | object): boolean => {
     return false;
   }
 };
+
+export const generateSKU = (title: string): string => {
+  let topLevelIdentifier = '';
+
+  for (let i = 0; i < title.split(' ').length; i += 1) {
+    topLevelIdentifier += title.split(' ')[i].charAt(0).toUpperCase();
+  }
+
+  const yearIdentifier = Number(new Date().getFullYear().toString().substring(2));
+  const randomIdentifier = Number(Math.random() * 999999).toFixed(0);
+  return `SKU-${topLevelIdentifier}-${yearIdentifier}-${randomIdentifier}`;
+};
+
+export const escapeRegex = (text: string): string => {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+};

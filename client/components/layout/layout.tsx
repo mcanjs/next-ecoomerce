@@ -1,13 +1,17 @@
 import React, { ReactElement } from 'react';
+import Copyright from '../copyright';
+import Footer from '../footer';
+import Header from '../header';
 import Navbar from '../navbar';
 
-const Layout = ({ children }: { children: ReactElement }) => {
+export default function Layout({ children }: { children: ReactElement }) {
   return (
     <>
+      <Header />
       <Navbar />
-      <main className="h-full mt-[120px] lg:mt-[80px]">{children}</main>
+      <main>{children}</main>
+      <Footer />
+      <Copyright />
     </>
   );
-};
-
-export default Layout;
+}

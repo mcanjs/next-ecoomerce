@@ -1,0 +1,6 @@
+2022-12-19 09:50:43 info: =================================
+2022-12-19 09:50:43 info: ======= ENV: development =======
+2022-12-19 09:50:43 info: 🚀 App listening on the port 8000
+2022-12-19 09:50:43 info: =================================
+2022-12-19 11:16:25 error: [POST] /signup >> StatusCode:: 400, Message:: email must be an email, password must be a string, name must be a string, surname must be a string, phone must be a valid phone number
+2022-12-19 11:16:25 info: [0mPOST /signup [33m400[0m 70.663 ms - 148[0m

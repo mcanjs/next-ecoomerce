@@ -1,0 +1,997 @@
+2023-01-16 13:15:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m69[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m69[0m   createdAt: {
+[7m  [0m [91m  ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m69[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m69[0m   createdAt: {
+[7m  [0m [91m  ~~~~~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 13:16:01 error: uncaughtException: boolean is not defined
+ReferenceError: boolean is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/products.model.ts:69:11)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:9:1)
+2023-01-16 13:16:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m18[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   description: {
+[7m  [0m [91m             ~[0m
+[96msrc/models/products.model.ts[0m:[93m18[0m:[93m16[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m18[0m   description: {
+[7m  [0m [91m               ~[0m
+[96msrc/models/products.model.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m22[0m   discountPercentage: {
+[7m  [0m [91m                    ~[0m
+[96msrc/models/products.model.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m   images: [
+[7m  [0m [91m        ~[0m
+[96msrc/models/products.model.ts[0m:[93m32[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m32[0m   price: {
+[7m  [0m [91m       ~[0m
+[96msrc/models/products.model.ts[0m:[93m36[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m36[0m   stock: {
+[7m  [0m [91m       ~[0m
+[96msrc/models/products.model.ts[0m:[93m40[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m40[0m   thumbnail: {
+[7m  [0m [91m           ~[0m
+[96msrc/models/products.model.ts[0m:[93m44[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   title: {
+[7m  [0m [91m       ~[0m
+[96msrc/models/products.model.ts[0m:[93m48[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m48[0m   alt: {
+[7m  [0m [91m     ~[0m
+[96msrc/models/products.model.ts[0m:[93m52[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m   slug: {
+[7m  [0m [91m      ~[0m
+[96msrc/models/products.model.ts[0m:[93m56[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m56[0m   sku: {
+[7m  [0m [91m     ~[0m
+[96msrc/models/products.model.ts[0m:[93m61[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m61[0m   rating: {
+[7m  [0m [91m        ~[0m
+[96msrc/models/products.model.ts[0m:[93m65[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m65[0m   isGiftCodeUsable: {
+[7m  [0m [91m                  ~[0m
+[96msrc/models/products.model.ts[0m:[93m69[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m69[0m   isPublished: {
+[7m  [0m [91m             ~[0m
+[96msrc/models/products.model.ts[0m:[93m73[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m73[0m   createdAt: {
+[7m  [0m [91m           ~[0m
+[96msrc/models/products.model.ts[0m:[93m77[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m77[0m   updatedAt: {
+[7m  [0m [91m           ~[0m
+[96msrc/models/products.model.ts[0m:[93m81[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m81[0m });
+[7m  [0m [91m~[0m
+[96msrc/models/products.model.ts[0m:[93m81[0m:[93m2[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m81[0m });
+[7m  [0m [91m ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m18[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   description: {
+[7m  [0m [91m             ~[0m
+[96msrc/models/products.model.ts[0m:[93m18[0m:[93m16[0m - [91merror[0m[90m TS1136: [0mProperty assignment expected.
+
+[7m18[0m   description: {
+[7m  [0m [91m               ~[0m
+[96msrc/models/products.model.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m22[0m   discountPercentage: {
+[7m  [0m [91m                    ~[0m
+[96msrc/models/products.model.ts[0m:[93m26[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m26[0m   images: [
+[7m  [0m [91m        ~[0m
+[96msrc/models/products.model.ts[0m:[93m32[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m32[0m   price: {
+[7m  [0m [91m       ~[0m
+[96msrc/models/products.model.ts[0m:[93m36[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m36[0m   stock: {
+[7m  [0m [91m       ~[0m
+[96msrc/models/products.model.ts[0m:[93m40[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m40[0m   thumbnail: {
+[7m  [0m [91m           ~[0m
+[96msrc/models/products.model.ts[0m:[93m44[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   title: {
+[7m  [0m [91m       ~[0m
+[96msrc/models/products.model.ts[0m:[93m48[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m48[0m   alt: {
+[7m  [0m [91m     ~[0m
+[96msrc/models/products.model.ts[0m:[93m52[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m   slug: {
+[7m  [0m [91m      ~[0m
+[96msrc/models/products.model.ts[0m:[93m56[0m:[93m6[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m56[0m   sku: {
+[7m  [0m [91m     ~[0m
+[96msrc/models/products.model.ts[0m:[93m61[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m61[0m   rating: {
+[7m  [0m [91m        ~[0m
+[96msrc/models/products.model.ts[0m:[93m65[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m65[0m   isGiftCodeUsable: {
+[7m  [0m [91m                  ~[0m
+[96msrc/models/products.model.ts[0m:[93m69[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m69[0m   isPublished: {
+[7m  [0m [91m             ~[0m
+[96msrc/models/products.model.ts[0m:[93m73[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m73[0m   createdAt: {
+[7m  [0m [91m           ~[0m
+[96msrc/models/products.model.ts[0m:[93m77[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m77[0m   updatedAt: {
+[7m  [0m [91m           ~[0m
+[96msrc/models/products.model.ts[0m:[93m81[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m81[0m });
+[7m  [0m [91m~[0m
+[96msrc/models/products.model.ts[0m:[93m81[0m:[93m2[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m81[0m });
+[7m  [0m [91m ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 13:16:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m18[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   description: {
+[7m  [0m [91m  ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m18[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   description: {
+[7m  [0m [91m  ~~~~~~~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 16:47:18 error: uncaughtException: R is not defined
+ReferenceError: R is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:145)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:649:14)
+    at bootstrap (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:95:10)
+2023-01-16 16:48:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m13[0m:[93m35[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m13[0m       res.status(200).json({data: })
+[7m  [0m [91m                                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m13[0m:[93m35[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m13[0m       res.status(200).json({data: })
+[7m  [0m [91m                                  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:04:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/review.route.ts[0m:[93m15[0m:[93m60[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.post(`${this.path}`, this.reviewController.)
+[7m  [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/review.route.ts[0m:[93m15[0m:[93m60[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.post(`${this.path}`, this.reviewController.)
+[7m  [0m [91m                                                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:05:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m20[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m20[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m20[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:05:53 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/controllers/review.controller.ts:20
+                const ;
+                      ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-16 17:06:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m23[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m23[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:06:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m24[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m24[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:06:37 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/review.controller.ts:21
+                const createReviewData;
+                      ^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-16 17:06:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m24[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m24[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:07:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m24[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/review.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m24[0m     } catch(error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:08:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/review.route.ts[0m:[93m15[0m:[93m61[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.post(`${this.path}`, this.reviewController. )
+[7m  [0m [91m                                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/review.route.ts[0m:[93m15[0m:[93m61[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.post(`${this.path}`, this.reviewController. )
+[7m  [0m [91m                                                            ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:08:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/review.route.ts[0m:[93m15[0m:[93m68[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.post(`/secure${this.path}`, this.reviewController. )
+[7m  [0m [91m                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/review.route.ts[0m:[93m15[0m:[93m68[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.post(`/secure${this.path}`, this.reviewController. )
+[7m  [0m [91m                                                                   ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:08:18 error: [POST] /secure/api/review/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-16 17:09:19 error: [POST] /secure/api/reviews/ >> StatusCode:: 500, Message:: Review validation failed: rating: Path `rating` is required., description: Path `description` is required., productId: Path `productId` is required., user: Path `user` is required.
+2023-01-16 17:32:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m16[0m:[93m139[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m16[0m     const findAllReviewByProductId: Review[] = await this.review.find({ productId: reviewId }, '-__v').populate('userId', 'name surname').;
+[7m  [0m [91m                                                                                                                                          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m16[0m:[93m139[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m16[0m     const findAllReviewByProductId: Review[] = await this.review.find({ productId: reviewId }, '-__v').populate('userId', 'name surname').;
+[7m  [0m [91m                                                                                                                                          ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:32:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m16[0m:[93m152[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m16[0m     const findAllReviewByProductId: Review[] = await this.review.find({ productId: reviewId }, '-__v').populate('userId', 'name surname').lean().exec(());
+[7m  [0m [91m                                                                                                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m16[0m:[93m152[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m16[0m     const findAllReviewByProductId: Review[] = await this.review.find({ productId: reviewId }, '-__v').populate('userId', 'name surname').lean().exec(());
+[7m  [0m [91m                                                                                                                                                       ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         console.log(result.);
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:34:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m22[0m         const result.filter
+[7m  [0m [91m                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m21[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m22[0m         const result.filter
+[7m  [0m [91m                    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:35:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m60[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         const filteredResult = result.map(review => review.)
+[7m  [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m60[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m         const filteredResult = result.map(review => review.)
+[7m  [0m [91m                                                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:35:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m         const filteredResult = result.map(review => review.userId && )
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m         const filteredResult = result.map(review => review.userId && )
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:35:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m73[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m         const filteredResult = result.filter(review => review.userId && )
+[7m  [0m [91m                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m73[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m         const filteredResult = result.filter(review => review.userId && )
+[7m  [0m [91m                                                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:35:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m         const filteredResult = result.map(review => review.userId && )
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m22[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m         const filteredResult = result.map(review => review.userId && )
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:36:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m23[0m:[93m31[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m23[0m           if ( review.userId?.)
+[7m  [0m [91m                              ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m23[0m:[93m31[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m23[0m           if ( review.userId?.)
+[7m  [0m [91m                              ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:36:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m23[0m:[93m46[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m23[0m           if ( review.userId?.name && review.)
+[7m  [0m [91m                                             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m23[0m:[93m46[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m23[0m           if ( review.userId?.name && review.)
+[7m  [0m [91m                                             ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:37:48 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/review.service.ts:26
+                    const nameWith;
+                          ^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-16 17:37:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m25[0m:[93m11[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m25[0m           }
+[7m  [0m [91m          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m25[0m:[93m11[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m25[0m           }
+[7m  [0m [91m          ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:37:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m25[0m:[93m11[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m25[0m           }
+[7m  [0m [91m          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m25[0m:[93m11[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m25[0m           }
+[7m  [0m [91m          ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:39:29 error: uncaughtException: Identifier 'nameWithStars' has already been declared
+/Users/mcan/me/next-ecoomerce/server/src/services/review.service.ts:27
+                    const nameWithStars = review.userId.name.split(' ').map(word => `${word.charAt(0)}***`);
+                          ^
+
+SyntaxError: Identifier 'nameWithStars' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-16 17:39:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m27[0m:[93m11[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m           }
+[7m  [0m [91m          ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m27[0m:[93m11[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m           }
+[7m  [0m [91m          ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:40:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m26[0m:[93m37[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m             review.userId = { name: ...nameWithStars };
+[7m  [0m [91m                                    ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m26[0m:[93m37[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m             review.userId = { name: ...nameWithStars };
+[7m  [0m [91m                                    ~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:40:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m26[0m:[93m37[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m             review.userId = { name: ...nameWithStars };
+[7m  [0m [91m                                    ~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m26[0m:[93m37[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m             review.userId = { name: ...nameWithStars };
+[7m  [0m [91m                                    ~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:45:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m21[0m:[93m41[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m         if (!findAllReviewByProductId ||) throw new HttpException(409, "Reviews doesn't exit");
+[7m  [0m [91m                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m21[0m:[93m41[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m         if (!findAllReviewByProductId ||) throw new HttpException(409, "Reviews doesn't exit");
+[7m  [0m [91m                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 17:57:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m25[0m:[93m136[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m25[0m     const pushProductIdByProduct: Product = await this.product.findByIdAndUpdate(reviewData.productId, { $push: { reviews: reviewData. } });
+[7m  [0m [91m                                                                                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/review.service.ts[0m:[93m25[0m:[93m136[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m25[0m     const pushProductIdByProduct: Product = await this.product.findByIdAndUpdate(reviewData.productId, { $push: { reviews: reviewData. } });
+[7m  [0m [91m                                                                                                                                       ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-16 18:11:40 error: [POST] /secure/api/reviews/ >> StatusCode:: 401, Message:: Wrong authentication token

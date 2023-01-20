@@ -1,0 +1,1125 @@
+2023-01-10 01:01:09 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at pathtoRegexp (/Users/mcan/me/next-ecoomerce/server/node_modules/path-to-regexp/index.js:63:49)
+    at new Layer (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/layer.js:45:17)
+    at Function.route (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:505:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:520:22)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:19:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:11:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-10 01:01:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m33[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m   public getProducts = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m33[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m33[0m   public getProducts = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m33[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m33[0m   public getProducts = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m  ~~~~~~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m33[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m33[0m   public getProducts = async (req: Request, res: Response, next: NextFunction) => {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:01:50 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m35[0m       next(error;)
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m18[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m35[0m       next(error;)
+[7m  [0m [91m                 ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m35[0m       next(error;)
+[7m  [0m [91m                ~[0m
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m18[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m35[0m       next(error;)
+[7m  [0m [91m                 ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:01:57 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/products.controller.ts:30
+                const productSlug;
+                      ^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:02:11 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/products.controller.ts:31
+                const findO;
+                      ^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:02:16 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/controllers/products.controller.ts:31
+                const findAll;
+                      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:02:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:02:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:03:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m31[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m31[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m31[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m31[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:03:23 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:29
+        const findCategory;
+              ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:03:25 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:29
+        const ;
+              ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:03:28 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:29
+        const findProducts;
+              ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:03:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m34[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m34[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m34[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m34[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:03:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m34[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m34[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m34[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m34[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:03:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:04:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:05:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:05:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:06:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:06:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:06:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:06:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:07:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:07:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:07:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:07:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m32[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:14:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m23[0m:[93m89[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const findProduct: Product = await this.products.findById(productId).populate({path:});
+[7m  [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m23[0m:[93m89[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const findProduct: Product = await this.products.findById(productId).populate({path:});
+[7m  [0m [91m                                                                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:14:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m23[0m:[93m89[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const findProduct: Product = await this.products.findById(productId).populate({path:});
+[7m  [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m23[0m:[93m89[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const findProduct: Product = await this.products.findById(productId).populate({path:});
+[7m  [0m [91m                                                                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:14:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m23[0m:[93m90[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const findProduct: Product = await this.products.findById(productId).populate({path: });
+[7m  [0m [91m                                                                                         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m23[0m:[93m90[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const findProduct: Product = await this.products.findById(productId).populate({path: });
+[7m  [0m [91m                                                                                         ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:19:07 error: uncaughtException: categor is not defined
+ReferenceError: categor is not defined
+    at new ProductService (/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:11:23)
+    at new ProductsController (/Users/mcan/me/next-ecoomerce/server/src/controllers/products.controller.ts:7:27)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:10:31)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:11:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+2023-01-10 01:19:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m34[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m34[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m34[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m34[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:19:30 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:31
+        const find;
+              ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:19:32 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:31
+        const findCategory;
+              ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:19:34 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:31
+        const findCategory;
+              ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:19:40 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:31
+        const findCategory;
+              ^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-10 01:19:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m37[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m37[0m:[93m3[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m37[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:19:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m35[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     const findCategory: Category = await this.categories.find({name: })
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m35[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     const findCategory: Category = await this.categories.find({name: })
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:19:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m35[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     const findCategory: Category = await this.categories.find({name: })
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m35[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     const findCategory: Category = await this.categories.find({name: })
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:20:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m35[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     const findCategory: Category = await this.categories.find({name: })
+[7m  [0m [91m                                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m35[0m:[93m70[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m     const findCategory: Category = await this.categories.find({name: })
+[7m  [0m [91m                                                                     ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:21:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:21:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:21:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:21:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m81[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: })
+[7m  [0m [91m                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:21:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m97[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: findOneCategory.})
+[7m  [0m [91m                                                                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m38[0m:[93m97[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m38[0m     const findCategoryProducts: Product[] = await this.products.find({category: findOneCategory.})
+[7m  [0m [91m                                                                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:22:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m40[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m40[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m40[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m40[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:22:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m33[0m:[93m44[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m       const findAllCategoryProducts = await;
+[7m  [0m [91m                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m33[0m:[93m44[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m       const findAllCategoryProducts = await;
+[7m  [0m [91m                                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:26:40 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:26:40 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:27:27 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:27:34 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:31:11 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:39:18 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:39:18 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:39:21 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:39:29 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:39:35 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:39:35 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:40:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:40:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:44:14 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:44:19 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:44:19 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:44:49 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:44:49 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:45:34 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:45:34 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:45:34 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:45:56 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:46:13 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:46:13 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:46:13 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:46:22 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:46:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/exceptions/HttpException.ts[0m:[93m9[0m:[93m22[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m9[0m     console.log(this.)
+[7m [0m [91m                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/exceptions/HttpException.ts[0m:[93m9[0m:[93m22[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m9[0m     console.log(this.)
+[7m [0m [91m                     ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 01:47:05 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:34 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:38 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:38 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:45 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:53 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:48:54 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:49:01 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:49:53 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:50:07 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:50:38 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:50:39 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:50:59 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:05 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:05 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:10 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:10 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:20 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:27 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:51:59 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:02 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:33 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:51 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:51 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:51 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:57 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:52:57 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:53:06 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:53:13 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:53:13 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:53:34 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:06 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:06 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:15 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:15 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:27 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:27 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:47 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:47 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:54:47 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:31 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:36 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:36 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:43 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:49 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:56 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:55:58 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:56:04 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 01:56:06 error: [GET] /api/products/category/computers >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 17:17:22 error: [GET] /api/products/category >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "category" (type string) at path "_id" for model "Product"
+2023-01-10 17:17:22 error: [GET] /api/products/category >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "category" (type string) at path "_id" for model "Product"
+2023-01-10 19:40:54 error: [GET] /api/products/category/compute >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 19:41:14 error: [GET] /api/products/category/c >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 19:41:20 error: [GET] /api/products/category/compute >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-10 19:57:52 error: uncaughtException: middle is not defined
+ReferenceError: middle is not defined
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:12:37)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:8:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-10 19:57:54 error: uncaughtException: Route.get() requires a callback function but got a [object Object]
+Error: Route.get() requires a callback function but got a [object Object]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:12:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:8:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-10 19:58:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/brand.route.ts[0m:[93m15[0m:[93m58[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.get(`${this.path}`, this.brandController.);
+[7m  [0m [91m                                                         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/brand.route.ts[0m:[93m15[0m:[93m58[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m15[0m     this.router.get(`${this.path}`, this.brandController.);
+[7m  [0m [91m                                                         ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-10 19:58:22 error: uncaughtException: middlw is not defined
+ReferenceError: middlw is not defined
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:16:45)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:11:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-10 19:58:37 error: uncaughtException: Create is not defined
+ReferenceError: Create is not defined
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:66)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:12:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)

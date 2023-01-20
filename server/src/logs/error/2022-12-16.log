@@ -1,0 +1,310 @@
+2022-12-16 14:30:38 error: [POST] /login >> StatusCode:: 409, Message:: This email admin@maynaps.com was not found
+2022-12-16 14:41:10 error: uncaughtException: bad auth : Authentication failed.
+MongoServerError: bad auth : Authentication failed.
+    at Connection.onMessage (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/cmap/connection.ts:447:20)
+    at MessageStream.<anonymous> (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/cmap/connection.ts:241:56)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/cmap/message_stream.ts:189:12)
+    at MessageStream._write (/Users/mcan/me/next-ecoomerce/server/node_modules/mongodb/src/cmap/message_stream.ts:70:5)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+    at TLSSocket.ondata (node:internal/streams/readable:754:22)
+2022-12-16 16:19:30 error: [POST] /login >> StatusCode:: 409, Message:: This email mehmetcankizilyer@gmail.com was not found
+2022-12-16 16:21:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m10[0m:[93m6[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @Is
+[7m  [0m [91m     [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m10[0m:[93m6[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @Is
+[7m  [0m [91m     [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 16:21:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m10[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @IsString()
+[7m  [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m10[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m10[0m   @IsString()
+[7m  [0m [91m             [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 16:21:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsString()
+[7m  [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsString()
+[7m  [0m [91m             [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 16:21:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsString()
+[7m  [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsString()
+[7m  [0m [91m             [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 16:22:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsString()
+[7m  [0m [91m             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m14[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsString()
+[7m  [0m [91m             [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 16:22:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsDate()
+[7m  [0m [91m           [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/dtos/users.dto.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m16[0m   @IsDate()
+[7m  [0m [91m           [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 16:25:04 error: [POST] /signup >> StatusCode:: 400, Message:: name must be a string, surname must be a string, birthDate must be a valid ISO 8601 date string
+2022-12-16 16:25:12 error: [POST] /signup >> StatusCode:: 400, Message:: surname must be a string, birthDate must be a valid ISO 8601 date string
+2022-12-16 16:25:28 error: uncaughtException: IsPho is not defined
+ReferenceError: IsPho is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/dtos/users.dto.ts:16:4)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/routes/auth.route.ts:3:1)
+2022-12-16 16:25:35 error: uncaughtException: tr is not defined
+ReferenceError: tr is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/dtos/users.dto.ts:16:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/routes/auth.route.ts:3:1)
+2022-12-16 17:52:03 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string, name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a valid ISO 8601 date string
+2022-12-16 18:11:09 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a valid ISO 8601 date string
+2022-12-16 18:11:45 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a string
+2022-12-16 18:11:58 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a string
+2022-12-16 18:12:57 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a string
+2022-12-16 18:13:11 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a string
+2022-12-16 18:13:24 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a string
+2022-12-16 18:15:42 error: [POST] /signup >> StatusCode:: 409, Message:: This email mehmetcankizilyer@gmail.com already exists
+2022-12-16 18:15:56 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:16:51 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:17:22 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:17:48 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:19:46 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:20:09 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:21:04 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:21:10 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:21:55 error: [POST] /login >> StatusCode:: 400, Message:: name must be a string, surname must be a string, phone must be a valid phone number, birthDate must be a string
+2022-12-16 18:22:44 error: [POST] /login >> StatusCode:: 409, Message:: This email mehmetcanki23zilyer@gmail.com was not found
+2022-12-16 18:23:27 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m28[0m:[93m45[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m28[0m       res.status(200).json({ data: findUser., message: 'login' });
+[7m  [0m [91m                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m28[0m:[93m45[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m28[0m       res.status(200).json({ data: findUser., message: 'login' });
+[7m  [0m [91m                                            ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 18:25:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m45[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       res.status(200).json({ data: findUser., message: 'login' });
+[7m  [0m [91m                                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m45[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m27[0m       res.status(200).json({ data: findUser., message: 'login' });
+[7m  [0m [91m                                            ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 18:30:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m36[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m       res.status(200).json({ data: , message: 'login' });
+[7m  [0m [91m                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m27[0m:[93m36[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m       res.status(200).json({ data: , message: 'login' });
+[7m  [0m [91m                                   ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 18:34:33 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2022-12-16 18:36:05 error: [POST] /login >> StatusCode:: 500, Message:: Operation `users.findOne()` buffering timed out after 10000ms
+2022-12-16 18:36:10 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2022-12-16 18:36:26 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2022-12-16 18:38:36 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2022-12-16 18:39:02 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2022-12-16 18:39:25 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2022-12-16 18:40:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m38[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m     return { cookie, findUser };
+[7m  [0m [91m           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m38[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m38[0m     return { cookie, findUser };
+[7m  [0m [91m           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 18:43:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m     this.users.
+[7m  [0m [91m               [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m16[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m32[0m     this.users.
+[7m  [0m [91m               [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2022-12-16 18:43:27 error: [POST] /login >> StatusCode:: 409, Message:: This email admin@maynaps.com was not found
+2022-12-16 18:43:35 error: [POST] /login >> StatusCode:: 409, Message:: Password is not matching
+2022-12-16 19:54:48 error: [POST] /signup >> StatusCode:: 400, Message:: birthDate must be a string

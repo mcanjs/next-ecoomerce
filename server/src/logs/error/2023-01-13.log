@@ -1,0 +1,1944 @@
+2023-01-13 12:11:40 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:11:55 error: [POST] /secure/api/products/ >> StatusCode:: 400, Message:: category must contain at least 1 elements,category must be an array
+2023-01-13 12:34:50 error: [POST] /secure/api/category/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:39:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:07 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-13 12:39:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:07 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:39:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:08 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:08 error: [POST] /secure/api/brands/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:39:08 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:08 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:39:08 error: [POST] /secure/api/category/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:39:58 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:40:03 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:40:03 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:41:36 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:41:36 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:43:25 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:43:59 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:44:50 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:06 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:06 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:06 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:06 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-13 12:45:06 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:06 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:45:06 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:06 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:07 error: [POST] /secure/api/brands/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:45:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:07 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:07 error: [POST] /secure/api/category/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:45:53 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:53 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:53 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:53 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-13 12:45:53 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:53 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:45:53 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:54 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:54 error: [POST] /secure/api/brands/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:45:54 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:54 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:45:54 error: [POST] /secure/api/category/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:46:16 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:46:16 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:46:25 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:46:25 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:46:32 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:46:32 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:46:59 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2023-01-13 12:46:59 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:47:26 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:47:44 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:47:49 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:48:14 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:48:27 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:48:40 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:49:06 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:49:21 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:49:39 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:49:54 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:50:00 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:50:07 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:50:25 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:55:16 error: [GET] /api/products/category/computer >> StatusCode:: 409, Message:: categorySlug doesn't exist
+2023-01-13 12:55:16 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:55:16 error: [POST] /secure/api/brands/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:55:17 error: [POST] /secure/api/category/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:57:09 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:57:31 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 12:58:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m9[0m:[93m21[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m9[0m     console.log(req.)
+[7m [0m [91m                    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/products.controller.ts[0m:[93m9[0m:[93m21[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m9[0m     console.log(req.)
+[7m [0m [91m                    ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 12:58:48 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 15:52:57 error: uncaughtException: BrandService is not defined
+ReferenceError: BrandService is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:46:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/controllers/manufacturer.controller.ts:3:1)
+2023-01-13 15:53:02 error: uncaughtException: BrandService is not defined
+ReferenceError: BrandService is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:46:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/controllers/manufacturer.controller.ts:3:1)
+2023-01-13 15:53:51 error: uncaughtException: BrandService is not defined
+ReferenceError: BrandService is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:46:16)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/controllers/manufacturer.controller.ts:3:1)
+2023-01-13 15:55:53 error: uncaughtException: BrandService is not defined
+ReferenceError: BrandService is not defined
+    at new ManufacturerController (/Users/mcan/me/next-ecoomerce/server/src/controllers/manufacturer.controller.ts:7:29)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:10:28)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 15:55:57 error: uncaughtException: BrandService is not defined
+ReferenceError: BrandService is not defined
+    at new ManufacturerController (/Users/mcan/me/next-ecoomerce/server/src/controllers/manufacturer.controller.ts:7:29)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:10:28)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 15:57:55 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:57:57 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:14 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:32 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:34 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:40 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:45 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:48 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:58:59 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:59:11 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:59:14 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:59:16 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/brand.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 15:59:44 error: uncaughtException: BrandRoute is not defined
+ReferenceError: BrandRoute is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:120)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:649:14)
+    at bootstrap (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:95:10)
+2023-01-13 15:59:50 error: uncaughtException: BrandRoute is not defined
+ReferenceError: BrandRoute is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:120)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:649:14)
+    at bootstrap (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:95:10)
+2023-01-13 15:59:54 error: uncaughtException: BrandRoute is not defined
+ReferenceError: BrandRoute is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:120)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at phase4 (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:649:14)
+    at bootstrap (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/bin.ts:95:10)
+2023-01-13 15:59:57 error: uncaughtException: Cannot find module './routes/manufacturer.route'
+Require stack:
+- /Users/mcan/me/next-ecoomerce/server/src/server.ts
+Error: Cannot find module './routes/manufacturer.route'
+Require stack:
+- /Users/mcan/me/next-ecoomerce/server/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/Users/mcan/me/next-ecoomerce/server/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/Users/mcan/me/next-ecoomerce/server/node_modules/tsconfig-paths/src/register.ts:115:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+2023-01-13 16:00:06 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:13 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:20 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:27 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:31 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:35 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at BrandRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new BrandRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:38 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:00:47 error: uncaughtException: Cannot read properties of undefined (reading 'getBrands')
+TypeError: Cannot read properties of undefined (reading 'getBrands')
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:58)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 16:00:56 error: uncaughtException: Cannot read properties of undefined (reading 'getBrands')
+TypeError: Cannot read properties of undefined (reading 'getBrands')
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:58)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 16:00:58 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/manufacturer.route.ts[0m:[93m17[0m:[93m42[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     this.router.get(`${this.path}`, this..getBrands);
+[7m  [0m [91m                                         ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/manufacturer.route.ts[0m:[93m17[0m:[93m42[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     this.router.get(`${this.path}`, this..getBrands);
+[7m  [0m [91m                                         ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 16:01:03 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:01:05 error: uncaughtException: Cannot read properties of undefined (reading 'getBrands')
+TypeError: Cannot read properties of undefined (reading 'getBrands')
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:58)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 16:01:08 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:17:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:01:10 error: uncaughtException: Cannot read properties of undefined (reading 'getBrandsByCategory')
+TypeError: Cannot read properties of undefined (reading 'getBrandsByCategory')
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:18:73)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 16:01:15 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:18:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:01:18 error: uncaughtException: Cannot read properties of undefined (reading 'createBrand')
+TypeError: Cannot read properties of undefined (reading 'createBrand')
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:19:119)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 16:01:22 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as post] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ManufacturerRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:19:17)
+    at new ManufacturerRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/manufacturer.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:116)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 16:04:05 error: [POST] /secure/api/manufacturers/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 16:04:38 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 16:05:30 error: [POST] /secure/api/manufacturers/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 16:08:54 error: [POST] /secure/api/category/ >> StatusCode:: 400, Message:: property brands should not exist
+2023-01-13 16:34:49 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 16:35:11 error: [POST] /secure/api/products/ >> StatusCode:: 400, Message:: manufacturer must be a string,manufacturer should not be empty, category must contain at least 1 elements,category must be an array
+2023-01-13 16:39:17 error: [POST] /secure/api/products/ >> StatusCode:: 400, Message:: category must contain at least 1 elements,category must be an array
+2023-01-13 16:45:01 error: [POST] /secure/api/products/ >> StatusCode:: 400, Message:: property rating should not exist, property brand should not exist
+2023-01-13 16:45:09 error: [POST] /secure/api/products/ >> StatusCode:: 400, Message:: property brand should not exist
+2023-01-13 17:45:40 error: [POST] /secure/api/manufacturers/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 17:51:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/manufacturer.model.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/manufacturer.model.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 17:51:36 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/manufacturer.model.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/manufacturer.model.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 17:51:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/manufacturer.model.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/manufacturer.model.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 17:51:58 error: uncaughtException: unique is not defined
+ReferenceError: unique is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/manufacturer.model.ts:26:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:7:1)
+2023-01-13 17:53:22 error: uncaughtException: isUsableGiftCode is not defined
+ReferenceError: isUsableGiftCode is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/manufacturer.model.ts:31:3)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:7:1)
+2023-01-13 17:54:26 error: uncaughtException: boolean is not defined
+ReferenceError: boolean is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/models/manufacturer.model.ts:32:11)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/services/manufacturer.service.ts:7:1)
+2023-01-13 18:02:27 error: uncaughtException: async is not defined
+ReferenceError: async is not defined
+    at new ProductsController (/Users/mcan/me/next-ecoomerce/server/src/controllers/products.controller.ts:30:10)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:10:31)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-01-13 18:03:13 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:19 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:22 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:24 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:27 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:31 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:35 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:45 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:03:52 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/Users/mcan/me/next-ecoomerce/server/node_modules/express/lib/router/index.js:521:19)
+    at ProductsRoute.initializeRoutes (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:18:17)
+    at new ProductsRoute (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:13:10)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/server.ts:12:75)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+2023-01-13 18:04:40 error: [GET] /api/products/macbook-pro >> StatusCode:: 500, Message:: Cast to ObjectId failed for value "macbook-pro" (type string) at path "_id" for model "Product"
+2023-01-13 18:10:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m57[0m:[93m14[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m57[0m     default: ,
+[7m  [0m [91m             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m57[0m:[93m14[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m57[0m     default: ,
+[7m  [0m [91m             ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:10:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m57[0m:[93m28[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m57[0m     default: Math.random()*,
+[7m  [0m [91m                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m57[0m:[93m28[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m57[0m     default: Math.random()*,
+[7m  [0m [91m                           ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:10:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m57[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m57[0m     default: Math.random(1)*,
+[7m  [0m [91m                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/products.model.ts[0m:[93m57[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m57[0m     default: Math.random(1)*,
+[7m  [0m [91m                            ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:12:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m export const generateSku = ()
+[7m  [0m [91m                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m29[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m export const generateSku = ()
+[7m  [0m [91m                            ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:12:54 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                              ~[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                              ~[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                                  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:12:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                              ~[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                                  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                              ~[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m export const generateSku = ({}: {})
+[7m  [0m [91m                                  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:13:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m21[0m export const generateSku = ({}: {title: string})
+[7m  [0m [91m                              ~[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m export const generateSku = ({}: {title: string})
+[7m  [0m [91m                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m21[0m export const generateSku = ({}: {title: string})
+[7m  [0m [91m                              ~[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m21[0m export const generateSku = ({}: {title: string})
+[7m  [0m [91m                                               ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:13:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m45[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, )
+[7m  [0m [91m                                            [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m45[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, )
+[7m  [0m [91m                                            [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:13:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m21[0m export const generateSku = (title: string, category: )
+[7m  [0m [91m                                                     ~[0m
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m55[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, category: )
+[7m  [0m [91m                                                      [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m54[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m21[0m export const generateSku = (title: string, category: )
+[7m  [0m [91m                                                     ~[0m
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m55[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, category: )
+[7m  [0m [91m                                                      [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:13:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m63[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, category: string, )
+[7m  [0m [91m                                                              [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m63[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, category: string, )
+[7m  [0m [91m                                                              [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:15:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m62[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m21[0m export const generateSku = (title: string, category: string):
+[7m  [0m [91m                                                             [0m
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m62[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, category: string):
+[7m  [0m [91m                                                             [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m62[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m21[0m export const generateSku = (title: string, category: string):
+[7m  [0m [91m                                                             [0m
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'=>' expected.
+
+[7m22[0m 
+[7m  [0m [91m[0m
+[96msrc/utils/util.ts[0m:[93m21[0m:[93m62[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m21[0m export const generateSku = (title: string, category: string):
+[7m  [0m [91m                                                             [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:15:19 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m   return '';
+[7m  [0m [91m         ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m23[0m   return '';
+[7m  [0m [91m         ~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:16:25 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/utils/util.ts:29
+    const ;
+          ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:16:26 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/utils/util.ts:29
+    const ;
+          ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:17:27 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/utils/util.ts:29
+    const ;
+          ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:17:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m   return '';
+[7m  [0m [91m         ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m23[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m23[0m   return '';
+[7m  [0m [91m         ~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:17:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m64[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m   const topLevelIdentifier = title.split(' ').map(word => word.)
+[7m  [0m [91m                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m22[0m:[93m64[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m22[0m   const topLevelIdentifier = title.split(' ').map(word => word.)
+[7m  [0m [91m                                                               ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:18:19 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/utils/util.ts:30
+    const ;
+          ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:18:21 error: uncaughtException: Identifier 'category' has already been declared
+/Users/mcan/me/next-ecoomerce/server/src/utils/util.ts:30
+    const category;
+          ^
+
+SyntaxError: Identifier 'category' has already been declared
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:18:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m   return '';
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m   return '';
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:19:16 error: uncaughtException: Missing initializer in const declaration
+/Users/mcan/me/next-ecoomerce/server/src/utils/util.ts:31
+    const year;
+          ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:19:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m25[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m25[0m   return '';
+[7m  [0m [91m         ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m25[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m25[0m   return '';
+[7m  [0m [91m         ~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:20:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m25[0m:[93m17[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m25[0m   return `SKU-${}`;
+[7m  [0m [91m                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m25[0m:[93m17[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m25[0m   return `SKU-${}`;
+[7m  [0m [91m                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:21:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   return `SKU-${topLevelIdentifier}`;
+[7m  [0m [91m  ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   return `SKU-${topLevelIdentifier}`;
+[7m  [0m [91m  ~~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:22:29 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m49[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const sku: string = generateSku(productData.)
+[7m  [0m [91m                                                ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m49[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const sku: string = generateSku(productData.)
+[7m  [0m [91m                                                ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:22:40 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:17
+        const ;
+              ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:22:43 error: uncaughtException: Unexpected token ';'
+/Users/mcan/me/next-ecoomerce/server/src/services/product.service.ts:17
+        const ;
+              ^
+
+SyntaxError: Unexpected token ';'
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+2023-01-13 18:22:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     const productSku: string = generateSku(productData.title)
+[7m  [0m [91m          ~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     const productSku: string = generateSku(productData.title)
+[7m  [0m [91m          ~~~~~~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:22:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const productSku: string = generateSku(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const productSku: string = generateSku(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:23:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const createProductSKU: string = generateSku(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const createProductSKU: string = generateSku(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:23:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const createProductSKU: string = generateSku(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const createProductSKU: string = generateSku(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:23:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const createProductSKU: string = generateSKU(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m18[0m     const createProductSKU: string = generateSKU(productData.title)
+[7m  [0m [91m    ~~~~~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:23:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m47[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const findProductCategory: Product = this.
+[7m  [0m [91m                                              [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m47[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const findProductCategory: Product = this.
+[7m  [0m [91m                                              [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:23:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m47[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const findProductCategory: Product = this.
+[7m  [0m [91m                                              [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m47[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const findProductCategory: Product = this.
+[7m  [0m [91m                                              [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:23:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m58[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const findProductCategory: Product = this.categories.
+[7m  [0m [91m                                                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m17[0m:[93m58[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m17[0m     const findProductCategory: Product = this.categories.
+[7m  [0m [91m                                                         [0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:24:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m89[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m     const createProductSKU: string = generateSKU(productData.title, findProductCategory.);
+[7m  [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m89[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m     const createProductSKU: string = generateSKU(productData.title, findProductCategory.);
+[7m  [0m [91m                                                                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:24:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m89[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m     const createProductSKU: string = generateSKU(productData.title, findProductCategory.);
+[7m  [0m [91m                                                                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/product.service.ts[0m:[93m18[0m:[93m89[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m18[0m     const createProductSKU: string = generateSKU(productData.title, findProductCategory.);
+[7m  [0m [91m                                                                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:26:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m29[0m   "_id": {
+[7m  [0m [91m       ~[0m
+[96msrc/utils/util.ts[0m:[93m30[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m30[0m     "$oid": "63c15f0a61c49fccb9485069"
+[7m  [0m [91m          ~[0m
+[96msrc/utils/util.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m31[0m   },
+[7m  [0m [91m   ~[0m
+[96msrc/utils/util.ts[0m:[93m32[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m32[0m   "manufacturer": {
+[7m  [0m [91m                ~[0m
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m33[0m     "$oid": "63c157be61c49fccb9485030"
+[7m  [0m [91m          ~[0m
+[96msrc/utils/util.ts[0m:[93m34[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m34[0m   },
+[7m  [0m [91m   ~[0m
+[96msrc/utils/util.ts[0m:[93m35[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m35[0m   "category": [
+[7m  [0m [91m            ~[0m
+[96msrc/utils/util.ts[0m:[93m40[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m40[0m   "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+[7m  [0m [91m               ~[0m
+[96msrc/utils/util.ts[0m:[93m41[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m41[0m   "discountPercentage": 11.02,
+[7m  [0m [91m                      ~[0m
+[96msrc/utils/util.ts[0m:[93m42[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m42[0m   "images": [
+[7m  [0m [91m          ~[0m
+[96msrc/utils/util.ts[0m:[93m48[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m48[0m   "price": 1749,
+[7m  [0m [91m         ~[0m
+[96msrc/utils/util.ts[0m:[93m49[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m49[0m   "stock": 83,
+[7m  [0m [91m         ~[0m
+[96msrc/utils/util.ts[0m:[93m50[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m50[0m   "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+[7m  [0m [91m             ~[0m
+[96msrc/utils/util.ts[0m:[93m51[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m51[0m   "title": "MacBook Pro",
+[7m  [0m [91m         ~[0m
+[96msrc/utils/util.ts[0m:[93m52[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m52[0m   "alt": "MacBook Pro",
+[7m  [0m [91m       ~[0m
+[96msrc/utils/util.ts[0m:[93m53[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m53[0m   "slug": "macbook-pro",
+[7m  [0m [91m        ~[0m
+[96msrc/utils/util.ts[0m:[93m54[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m54[0m   "__v": 0
+[7m  [0m [91m       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m29[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m29[0m   "_id": {
+[7m  [0m [91m       ~[0m
+[96msrc/utils/util.ts[0m:[93m30[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m30[0m     "$oid": "63c15f0a61c49fccb9485069"
+[7m  [0m [91m          ~[0m
+[96msrc/utils/util.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m31[0m   },
+[7m  [0m [91m   ~[0m
+[96msrc/utils/util.ts[0m:[93m32[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m32[0m   "manufacturer": {
+[7m  [0m [91m                ~[0m
+[96msrc/utils/util.ts[0m:[93m33[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m33[0m     "$oid": "63c157be61c49fccb9485030"
+[7m  [0m [91m          ~[0m
+[96msrc/utils/util.ts[0m:[93m34[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m34[0m   },
+[7m  [0m [91m   ~[0m
+[96msrc/utils/util.ts[0m:[93m35[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m35[0m   "category": [
+[7m  [0m [91m            ~[0m
+[96msrc/utils/util.ts[0m:[93m40[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m40[0m   "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+[7m  [0m [91m               ~[0m
+[96msrc/utils/util.ts[0m:[93m41[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m41[0m   "discountPercentage": 11.02,
+[7m  [0m [91m                      ~[0m
+[96msrc/utils/util.ts[0m:[93m42[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m42[0m   "images": [
+[7m  [0m [91m          ~[0m
+[96msrc/utils/util.ts[0m:[93m48[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m48[0m   "price": 1749,
+[7m  [0m [91m         ~[0m
+[96msrc/utils/util.ts[0m:[93m49[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m49[0m   "stock": 83,
+[7m  [0m [91m         ~[0m
+[96msrc/utils/util.ts[0m:[93m50[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m50[0m   "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+[7m  [0m [91m             ~[0m
+[96msrc/utils/util.ts[0m:[93m51[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m51[0m   "title": "MacBook Pro",
+[7m  [0m [91m         ~[0m
+[96msrc/utils/util.ts[0m:[93m52[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m52[0m   "alt": "MacBook Pro",
+[7m  [0m [91m       ~[0m
+[96msrc/utils/util.ts[0m:[93m53[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m53[0m   "slug": "macbook-pro",
+[7m  [0m [91m        ~[0m
+[96msrc/utils/util.ts[0m:[93m54[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m54[0m   "__v": 0
+[7m  [0m [91m       ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:27:00 error: [POST] /secure/api/products/ >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-13 18:29:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m25[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m   for ( let i = 0; i <  )
+[7m  [0m [91m                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m25[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m   for ( let i = 0; i <  )
+[7m  [0m [91m                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:29:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m24[0m   for ( let i = 0; i < title.split(' ') )
+[7m  [0m [91m                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m24[0m   for ( let i = 0; i < title.split(' ') )
+[7m  [0m [91m                                        ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:29:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m26[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:30:32 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:30:34 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:30:43 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:30:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m3[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m27[0m   }
+[7m  [0m [91m  ~[0m
+
+    at createTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:863:19)
+    at /Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1379:34
+    at Object.compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1458:13)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+2023-01-13 18:33:52 error: [POST] /secure/api/products/ >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 768

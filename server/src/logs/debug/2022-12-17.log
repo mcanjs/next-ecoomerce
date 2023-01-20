@@ -1,0 +1,8 @@
+2022-12-17 21:29:34 info: =================================
+2022-12-17 21:29:34 info: ======= ENV: development =======
+2022-12-17 21:29:34 info: 🚀 App listening on the port 8000
+2022-12-17 21:29:34 info: =================================
+2022-12-17 21:31:50 error: [POST] /signup >> StatusCode:: 409, Message:: This email mehmetcankizilyer@gmail.com already exists
+2022-12-17 21:31:50 info: [0mPOST /signup [33m409[0m 106.238 ms - 67[0m
+2022-12-17 21:32:13 info: [0mPOST /signup [32m201[0m 564.172 ms - 275[0m
+2022-12-17 21:32:26 info: [0mPOST /login [32m200[0m 579.326 ms - 247[0m

@@ -1,0 +1,1 @@
+2022-12-19 11:16:25 error: [POST] /signup >> StatusCode:: 400, Message:: email must be an email, password must be a string, name must be a string, surname must be a string, phone must be a valid phone number

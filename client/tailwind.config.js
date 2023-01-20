@@ -8,20 +8,23 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-lato)', ...fontFamily.sans]
+        sans: ['var(--font-roboto)', 'var(--font-poppins)', ...fontFamily.sans]
+      },
+      colors: {
+        primary: '#fd3d57'
+      },
+      screens: {
+        sm: '576px',
+        md: '768px',
+        lg: '992px',
+        xl: '1200px'
       }
     },
     container: {
-      screens: {
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1141px',
-        '2xl': '1496px'
-      }
+      center: true
     }
   },
-  plugins: [require('daisyui')],
+  plugins: [require('daisyui'), require('@tailwindcss/line-clamp')],
   daisyui: {
     themes: ['corporate']
   }
