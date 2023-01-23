@@ -109,6 +109,11 @@
             "date": 1674108467904,
             "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/error/2023-01-19.log",
             "hash": "a0256fcc2bbd4d6e22f007819e2fd2a3620d6ddae291fc86139595dfdb335502"
+        },
+        {
+            "date": 1674222383757,
+            "name": "/Users/mcan/me/next-ecoomerce/server/src/logs/error/2023-01-20.log",
+            "hash": "b88c5300dcf2bdb557453d7ab350c28701fc8dcabe53a9b345df9b475df5047b"
         }
     ],
     "hashType": "sha256"

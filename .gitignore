@@ -1,5 +1,6 @@
 # Server
-
+server/src/logs/*.log
+server/src/logs/*.json
 server/logs
 server/*.log
 server/npm-debug.log*
