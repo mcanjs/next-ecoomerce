@@ -1,4 +1,8 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
+import useUser from '@/lib/useUser';
+import fetchJson from '@/utils/fetchJson';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 import {
@@ -11,6 +15,7 @@ import {
 } from 'react-icons/gi';
 
 export default function Navbar() {
+  const { user, mutateUser } = useUser();
   return (
     <nav className="bg-gray-800">
       <div className="container flex flex-col md:flex-row">
@@ -88,12 +93,28 @@ export default function Navbar() {
               Contact us
             </Link>
           </div>
-          <Link
-            href="/login"
-            className="text-gray-200 hover:text-white transition pl-6"
-          >
-            Login
-          </Link>
+          {user?.isLoggedIn ? (
+            <a
+              className="text-gray-200 hover:text-white transition pl-6"
+              href="/api/logout"
+              onClick={async e => {
+                e.preventDefault();
+                mutateUser(
+                  await fetchJson('/api/logout', { method: 'POST' }),
+                  false
+                );
+              }}
+            >
+              Logout
+            </a>
+          ) : (
+            <Link
+              href="/login"
+              className="text-gray-200 hover:text-white transition pl-6"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </nav>

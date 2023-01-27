@@ -44,3 +44,27 @@ h6 {
 .attribute input[type='checkbox']:checked + label {
   @apply bg-primary text-white transition-all;
 }
+
+.table-cart .table-cart-head div {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: #f6f6f6;
+  border-right: 0;
+}
+
+.table-cart .table-cart-head div:last-of-type {
+  border-right: 1px solid #ddd;
+}
+
+.table-cart .table-cart-body .table-cart-body-col {
+  border: 1px solid #ddd;
+  @apply flex flex-col justify-center p-[20px] border-r-[0];
+}
+
+.table-cart .table-cart-body .table-cart-body-col:nth-of-type(-n + 6) {
+  border-top: 0;
+}
+
+.table-cart .table-cart-body .table-cart-body-col:last-of-type {
+  border-right: 1px solid #ddd;
+}

@@ -4,7 +4,7 @@ import { abb, calcDiscountPrice } from '@/utils/helpers';
 import { GetServerSidePropsContext } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { MutableRefObject, useRef, useState } from 'react';
+import { FormEvent, MutableRefObject, useRef, useState } from 'react';
 import { AiFillStar, AiOutlineHeart } from 'react-icons/ai';
 import { HiOutlineShoppingBag } from 'react-icons/hi2';
 import {
@@ -29,6 +29,10 @@ import {
   TextareaAttributes
 } from '@/components/attribute';
 import { IAttributeItem } from '@/interfaces/Attribute';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '@/store';
+import attribute from '@/slices/attribute';
+import { actions } from '@/slices/cart';
 
 interface IProps {
   product: {
@@ -74,6 +78,9 @@ function ThumbnailPlugin(
 }
 
 export default function Product(props: IProps) {
+  const dispatch = useDispatch();
+  const [isHaveError, setIsHaveError] = useState<boolean>(false);
+  const { attributes } = useSelector((state: RootState) => state.attribute);
   const [quantity, setQuantity] = useState<number>(1);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     initial: 0
@@ -88,6 +95,50 @@ export default function Product(props: IProps) {
     },
     [ThumbnailPlugin(instanceRef)]
   );
+
+  const onAddCart = (e: FormEvent) => {
+    e.preventDefault();
+
+    const attributeValidation = props.product.data.attributes.map(att => {
+      const type = att.type;
+      if (att.required) {
+        const relatedAttribute = attributes.filter(
+          stateAttributes => stateAttributes.attributeId === att._id
+        );
+
+        if (relatedAttribute.length > 0) {
+          if (
+            (type === 'radio' || type === 'checkbox' || type === 'select') &&
+            typeof relatedAttribute[0].selecteds !== 'undefined' &&
+            relatedAttribute[0].selecteds?.length > 0
+          ) {
+            return true;
+          } else if (
+            (type === 'input' || type === 'textarea') &&
+            typeof relatedAttribute[0].texts !== 'undefined' &&
+            relatedAttribute[0].texts.length > 0
+          ) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+      }
+    });
+
+    const isNotValid = attributeValidation.filter(
+      validation => validation === false
+    );
+
+    if (isNotValid.length > 0) {
+      setIsHaveError(true);
+    } else {
+      setIsHaveError(false);
+      dispatch(
+        actions.addProductToCart({ ...props.product.data, selectedAttributes: attributes, quantity })
+      );
+    }
+  };
 
   return (
     <>
@@ -200,100 +251,117 @@ export default function Product(props: IProps) {
             </>
           )}
 
-          <p className="mt-4 text-gray-600">{props.product.data.description}</p>
-          {props.product.data.attributes.length > 0 &&
-            props.product.data.attributes.map((attribute: IAttributeItem) => (
-              <div key={attribute._id}>
-                {attribute.type === 'radio' && (
-                  <RadioAttributes {...attribute} />
-                )}
-                {attribute.type === 'checkbox' && (
-                  <CheckboxAttributes {...attribute} />
-                )}
-                {attribute.type === 'select' && (
-                  <SelectAttributes {...attribute} />
-                )}
-                {attribute.type === 'input' && (
-                  <InputAttributes {...attribute} />
-                )}
-                {attribute.type === 'textarea' && (
-                  <TextareaAttributes {...attribute} />
-                )}
-              </div>
-            ))}
-
-          {props.product.data.stock > 0 && (
-            <div className="mt-4">
-              <h3 className="text-sm text-gray-800 uppercase mb-1">Quantity</h3>
-              <div className="flex border border-gray-300 text-gray-600 divide-x divide-gray-300 w-max">
-                <button
-                  type="button"
-                  onClick={() =>
-                    setQuantity(old => (old > 1 ? (old -= 1) : old))
-                  }
-                  className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none"
-                >
-                  -
-                </button>
-
-                <NumericInput
-                  className="h-8 w-8 text-base text-center outline-none"
-                  min={1}
-                  max={props.product.data.stock}
-                  value={quantity}
-                  onChange={val =>
-                    (val !== null && val > 0 && setQuantity(val)) ||
-                    (val !== null &&
-                      val > props.product.data.stock &&
-                      setQuantity(props.product.data.stock))
-                  }
-                  noStyle
-                />
-                <button
-                  type="button"
-                  onClick={() =>
-                    setQuantity(old =>
-                      old < props.product.data.stock ? (old += 1) : old
-                    )
-                  }
-                  className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none"
-                >
-                  +
-                </button>
-              </div>
-            </div>
-          )}
-          <div className="flex flex-col items-center gap-3 mt-6 border-b border-gray-200 pb-5 pt-5 md:flex-row">
-            {props.product.data.stock > 0 && (
-              <button className="w-full bg-primary border border-primary text-white px-5 py-2 font-medium rounded uppercase flex justify-center items-center gap-2 hover:bg-transparent hover:text-primary transition">
-                <HiOutlineShoppingBag size={20} />
-                <span className="text-sm">Add to cart</span>
-              </button>
+          <form onSubmit={onAddCart}>
+            <p className="mt-4 text-gray-600">
+              {props.product.data.description}
+            </p>
+            {props.product.data.attributes.length > 0 &&
+              props.product.data.attributes.map((attribute: IAttributeItem) => (
+                <div key={attribute._id}>
+                  {attribute.type === 'radio' && (
+                    <>
+                      <RadioAttributes {...attribute} />
+                    </>
+                  )}
+                  {attribute.type === 'checkbox' && (
+                    <>
+                      <CheckboxAttributes {...attribute} />
+                    </>
+                  )}
+                  {attribute.type === 'select' && (
+                    <SelectAttributes {...attribute} />
+                  )}
+                  {attribute.type === 'input' && (
+                    <InputAttributes {...attribute} />
+                  )}
+                  {attribute.type === 'textarea' && (
+                    <TextareaAttributes {...attribute} />
+                  )}
+                </div>
+              ))}
+            {isHaveError && (
+              <p className="mt-5 text-error">
+                Fill in or mark the mandatory ones from the above fields
+              </p>
             )}
-            <button className="w-full border border-gray-300 text-gray-600 px-5 py-2 font-medium rounded uppercase flex justify-center items-center gap-2 hover:text-primary transition">
-              <AiOutlineHeart size={20} /> Wishlist
-            </button>
-          </div>
-          <div className="flex gap-3 mt-4">
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
-            >
-              <RiFacebookCircleFill />
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
-            >
-              <RiTwitterFill />
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
-            >
-              <RiInstagramFill />
-            </a>
-          </div>
+            {props.product.data.stock > 0 && (
+              <div className="mt-4">
+                <h3 className="text-sm text-gray-800 uppercase mb-1">
+                  Quantity
+                </h3>
+                <div className="flex border border-gray-300 text-gray-600 divide-x divide-gray-300 w-max">
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setQuantity(old => (old > 1 ? (old -= 1) : old))
+                    }
+                    className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none"
+                  >
+                    -
+                  </button>
+
+                  <NumericInput
+                    className="h-8 w-8 text-base text-center outline-none"
+                    min={1}
+                    max={props.product.data.stock}
+                    value={quantity}
+                    onChange={val =>
+                      (val !== null && val > 0 && setQuantity(val)) ||
+                      (val !== null &&
+                        val > props.product.data.stock &&
+                        setQuantity(props.product.data.stock))
+                    }
+                    noStyle
+                  />
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setQuantity(old =>
+                        old < props.product.data.stock ? (old += 1) : old
+                      )
+                    }
+                    className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            )}
+            <div className="flex flex-col items-center gap-3 mt-6 border-b border-gray-200 pb-5 pt-5 md:flex-row">
+              {props.product.data.stock > 0 && (
+                <button
+                  type="submit"
+                  className="w-full bg-primary border border-primary text-white px-5 py-2 font-medium rounded uppercase flex justify-center items-center gap-2 hover:bg-transparent hover:text-primary transition"
+                >
+                  <HiOutlineShoppingBag size={20} />
+                  <span className="text-sm">Add to cart</span>
+                </button>
+              )}
+              <button className="w-full border border-gray-300 text-gray-600 px-5 py-2 font-medium rounded uppercase flex justify-center items-center gap-2 hover:text-primary transition">
+                <AiOutlineHeart size={20} /> Wishlist
+              </button>
+            </div>
+            <div className="flex gap-3 mt-4">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
+              >
+                <RiFacebookCircleFill />
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
+              >
+                <RiTwitterFill />
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
+              >
+                <RiInstagramFill />
+              </a>
+            </div>
+          </form>
         </div>
       </div>
       <div className="container grid grid-cols-12 items-start gap-6 pt-4 pb-16">

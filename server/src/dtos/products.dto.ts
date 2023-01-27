@@ -29,7 +29,7 @@ export class CreateProductDto {
   public images: string;
 
   @IsNotEmpty()
-  @IsNumber()
+  @IsNumber({ maxDecimalPlaces: 2 })
   public price: number;
 
   @IsNotEmpty()

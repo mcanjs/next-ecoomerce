@@ -10,8 +10,13 @@ import {
   HiOutlineUser
 } from 'react-icons/hi2';
 import Link from 'next/link';
+import useUser from '@/lib/useUser';
+import { useSelector } from 'react-redux';
+import { RootState } from '@/store';
 
 export default function Header() {
+  const { user } = useUser();
+  const { products } = useSelector((state: RootState) => state.cart);
   return (
     <header className="py-4 shadow-sm bg-white">
       <div className="container flex flex-col items-center justify-between md:flex-row">
@@ -36,30 +41,41 @@ export default function Header() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <div className="flex flex-col items-center text-gray-700 hover:text-primary transition relative">
-            <div className="text-2xl">
-              <HiOutlineHeart />
-            </div>
-            <div className="text-xs leading-3">Wishlist</div>
-            <div className="absolute right-0 -top-1 w-4 h-4 rounded-full flex items-center justify-center bg-primary text-white text-xs">
-              8
-            </div>
-          </div>
-          <div className="flex flex-col items-center text-gray-700 hover:text-primary transition relative">
+          {user?.isLoggedIn && (
+            <>
+              <Link
+                href="/profile"
+                className="flex flex-col items-center text-gray-700 hover:text-primary transition relative cursor-pointer"
+              >
+                <div className="text-2xl">
+                  <HiOutlineUser />
+                </div>
+                <div className="text-xs leading-3">Account</div>
+              </Link>
+              <div className="flex flex-col items-center text-gray-700 hover:text-primary transition relative cursor-pointer">
+                <div className="text-2xl">
+                  <HiOutlineHeart />
+                </div>
+                <div className="text-xs leading-3">Wishlist</div>
+                <div className="absolute right-0 -top-1 w-4 h-4 rounded-full flex items-center justify-center bg-primary text-white text-xs">
+                  8
+                </div>
+              </div>
+            </>
+          )}
+
+          <Link
+            href="/cart"
+            className="flex flex-col items-center text-gray-700 hover:text-primary transition relative cursor-pointer"
+          >
             <div className="text-2xl">
               <HiOutlineShoppingBag />
             </div>
             <div className="text-xs leading-3">Cart</div>
             <div className="absolute -right-3 -top-1 w-4 h-4 rounded-full flex items-center justify-center bg-primary text-white text-xs">
-              2
+              {products.length}
             </div>
-          </div>
-          <div className="flex flex-col items-center text-gray-700 hover:text-primary transition relative">
-            <div className="text-2xl">
-              <HiOutlineUser />
-            </div>
-            <div className="text-xs leading-3">Account</div>
-          </div>
+          </Link>
         </div>
       </div>
     </header>

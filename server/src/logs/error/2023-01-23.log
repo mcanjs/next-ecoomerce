@@ -1,0 +1,56 @@
+2023-01-23 13:43:43 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:44:30 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:48:06 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:48:20 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:51:01 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:52:57 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:53:16 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:53:36 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:53:56 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:54:12 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:54:26 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:54:39 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:56:12 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 13:56:28 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be a string
+2023-01-23 14:23:43 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-23 14:23:50 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-23 14:24:35 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-23 14:24:54 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-23 14:25:29 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-23 14:26:14 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-01-23 18:52:35 error: uncaughtException: IsD is not defined
+ReferenceError: IsD is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/dtos/products.dto.ts:31:14)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:2:1)
+2023-01-23 18:52:37 error: uncaughtException: IsDo is not defined
+ReferenceError: IsDo is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/dtos/products.dto.ts:31:14)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:2:1)
+2023-01-23 18:52:42 error: uncaughtException: IsDoub is not defined
+ReferenceError: IsDoub is not defined
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/dtos/products.dto.ts:31:14)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module.m._compile (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mcan/me/next-ecoomerce/server/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/Users/mcan/me/next-ecoomerce/server/src/routes/products.route.ts:2:1)

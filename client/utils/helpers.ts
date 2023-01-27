@@ -7,7 +7,7 @@ export function toCapitalizeWord(word: string | undefined | string[]) {
 }
 
 export function calcDiscountPrice(price: number, discountAmount: number) {
-  return Math.round(price * ((100 - discountAmount) / 100));
+  return (price * ((100 - discountAmount) / 100)).toFixed(2);
 }
 
 export function getRelatedManufacturerLength(
